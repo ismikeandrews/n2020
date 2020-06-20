@@ -53,13 +53,13 @@
                 </div>
             </section>
 
-            <section class="features section">
+            <section class=" section">
                 <div class="container">
                     <div class="features-inner section-inner">
                         <div class="features-header text-center">
                             <div class="container-sm">
-                                <h2 class="section-title mt-0">Conheca Stay Active</h2>
-                                <p class="section-paragraph">Uma plataforma que mantem os velinhos em casa fazendo atividades recreativas</p>
+                                <h2 class="section-title mt-0">Conheça Stay Active</h2>
+                                <p class="section-paragraph">Uma plataforma de atividades caseiras para fazer sozinho ou online com os amigos</p>
                             </div>
                         </div>
 						<div class="features-wrap">
@@ -73,8 +73,13 @@
 										    </g>
 										</svg>
                                     </div>
-                                    <h4 class="feature-title h3-mobile mb-8">Powerful</h4>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
+                                    <h4 class="feature-title h3-mobile mb-8">Atividades</h4>
+                                    <p class="text-sm">
+                                        Diversas atividades divididas por categorias para todos os generos e gostos.
+                                    </p>
+                                    <p class="text-sm">
+                                        Etapas simples e explicativas para você fazer por conta própria e de forma autônoma.
+                                    </p>
                                 </div>
                             </div>
 							<div class="feature text-center">
@@ -87,8 +92,9 @@
 										    </g>
 										</svg>
                                     </div>
-                                    <h4 class="feature-title h3-mobile mb-8">Powerful</h4>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
+                                    <h4 class="feature-title h3-mobile mb-8">Conectividade</h4>
+                                    <p class="text-sm">Atividades em grupo para aqueles mais sociaveis e que buscam interação.</p>
+                                    <p class="text-sm">Realize as atividades com seus amigos e parentes para tornar a experiência mais emocionante.</p>
                                 </div>
                             </div>
 							<div class="feature text-center">
@@ -102,8 +108,9 @@
 										    </g>
 										</svg>
                                     </div>
-                                    <h4 class="feature-title h3-mobile mb-8">Powerful</h4>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
+                                    <h4 class="feature-title h3-mobile mb-8">Compartilhamento</h4>
+                                    <p class="text-sm">Feed Social para publicar suas criações.</p>
+                                    <p class="text-sm">Após concluir as atividades, compartilhe no nosso feed para que mais pessoas vejam seu trabalho.</p>
                                 </div>
                             </div>
 							<div class="feature text-center">
@@ -116,8 +123,9 @@
 										    </g>
 										</svg>
                                     </div>
-                                    <h4 class="feature-title h3-mobile mb-8">Powerful</h4>
-                                    <p class="text-sm">A pseudo-Latin text used in web design, layout, and printing in place of English to emphasise design elements.</p>
+                                    <h4 class="feature-title h3-mobile mb-8">Zigs</h4>
+                                    <p class="text-sm">Um robo que interage com você durante suas atividades.
+                                        O Zigs vai acompanhar cada etapa com você, vai se expressar e reagir conforme você avança no projeto.</p>
                                 </div>
                             </div>
 						</div>
@@ -164,7 +172,7 @@
                     <div class="newsletter-inner section-inner">
                         <div class="newsletter-header text-center">
                             <h2 class="section-title mt-0">Newsletter</h2>
-                            <p class="section-paragraph">Cadastre seu email e fique por dentro das novidades</p>
+                            <p class="section-paragraph" style="color: #494949;">Cadastre seu email e fique por dentro das novidades</p>
 						</div>
 						<form action="/" method="post">
 							@csrf
@@ -187,7 +195,7 @@
 							</div>
 							<br>
 							<div class="control">
-								<button class="button button-primary button-block button-shadow" type="submit" style="width: 177px; margin: auto;
+								<button class="button button-primary2 button-block button-shadow" type="submit" style="width: 177px; margin: auto;
 							">Cadastre-se</button>
 							</div>
 						</form>
@@ -250,6 +258,6 @@
         </footer>
     </div>
 
-	<script src="{{ asset('dist/js/main.min.js') }}"></script>
+	<script src="{{ asset('js/main.min.js') }}"></script>
 </body>
 </html>
